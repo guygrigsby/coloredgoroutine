@@ -1,4 +1,4 @@
-module github.com/xiegeo/coloredgoroutine
+module github.com/guygrigsby/coloredgoroutine
 
 require (
 	github.com/fatih/color v1.7.0

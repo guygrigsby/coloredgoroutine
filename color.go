@@ -25,7 +25,7 @@ func (w *writer) Write(p []byte) (int, error) {
 	return c.Fprintf(w.w, "%s", p)
 }
 
-//Colors add color to the writer based on the current go routine id
+// Colors add color to the writer based on the current go routine id
 func Colors(w io.Writer) io.Writer {
 	return &writer{
 		w: w,
@@ -101,7 +101,7 @@ func init() {
 			add(f+hi, b+hi)
 		}
 	}
-	shuffle(colors)
+	//shuffle(colors)
 	order(bannedColors)
 }
 
