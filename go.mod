@@ -4,7 +4,6 @@ go 1.23.2
 
 require (
 	github.com/fatih/color v1.18.0
-	github.com/xiegeo/coloredgoroutine v0.1.1
 )
 
 require (
